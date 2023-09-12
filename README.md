@@ -20,7 +20,7 @@ The following methodology was used to accomplish the project objectives:
  1. Data Scraping: Job data was obtained from Instahyre using Python's Selenium library, considering specific criteria like job titles, locations, and company names.
 2. Data Conversion: Utilizing Pandas, the scraped data underwent transformation into three tables: jobs, company, and details.
 3. Data Cleaning and Preparation: The data cleaning phase involved eliminating irrelevant data, handling missing values, standardizing formats, removing duplicates, cleaning text, managing outliers, type conversion, consistency checks, categorical data normalization, and ensuring data integrity.
-4. Company Classification: Companies were classified into five classes (Class0 to Class4) based on employee count and company age using K-Means clustering. The optimal number of clusters was determined using the Elbow Method.
+4. Company Classification: Companies were classified into five classes (Class0 to Class4) based on employee count and company age using K-Means clustering. The optimal number of clusters was determined using the Elbow Method.<br>
 <img width="618" alt="image" src="https://github.com/Ajay-V1/Instahyre-Job-Portal-Analysis/assets/132564171/ebb84f19-17d3-4714-aab5-6e649889e672"><br>
 
  <img width="372" alt="image" src="https://github.com/Ajay-V1/Instahyre-Job-Portal-Analysis/assets/132564171/ea2b80ac-daf6-4b9a-b360-f48c09e6fd02"> <br>
